@@ -325,13 +325,54 @@ color: rgb(255, 66, 165);
   width: fit-content;
   margin: auto;
   padding: 50px 0;
+  display: flex;
+}
+.ftitle span{
+  color: rgb(255, 66, 165)
 }
 
+
+footer{
+  color: #ffffff;
+  background: rgb(11, 2, 35);
+}
 #fmenu{
-  width: fit-content;
-  margin: 0 auto;
+  width: 50%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
 }
 #fmenu a{
   text-decoration: none;
-  padding: 0 20px;
+  font-size: 24px;
+  color: #ffffff;
+  font-weight: 700;
+}
+#fterms{
+  width: 40%;
+  display: flex;
+  justify-content: space-between;
+  margin: 20px auto;
+}
+#fterms a{
+  text-decoration: none;
+  color: #ffffff;
+  font-weight: 100;
+}
+
+#ficon{
+  width: 40%;
+  margin: 50px auto;
+  display: flex;
+  justify-content: space-between;
+}
+#ficon .fa-brands{
+  font-size: 50px;
+}
+footer h2{
+  width: fit-content;
+  margin: auto;
+  padding: 20px 0 50px;
+  font-weight: 100;
+  font-size: 18px;
 }
