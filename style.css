@@ -155,6 +155,7 @@ nav {
   margin: 10px 0;
 }
 
+/* sec 3 part of css */
 #sec-3 h1 {
   font-size: 48px;
   font-weight: 700;
@@ -165,7 +166,6 @@ nav {
   font-size: 48px;
   font-weight: 700;
 }
-
 #sec-3 h3 {
   font-size: 18px;
   font-weight: 100;
@@ -184,4 +184,42 @@ nav {
 }
 
 
-
+#sec-4 > div{
+  width: 80%;
+  display: flex;
+  margin: 100px auto;
+}
+#sec-41{
+  width: 50%;
+  text-align: center;
+  height: fit-content;
+  align-self: center;
+}
+#sec-41 > h1{
+  font-size: 44px;
+  margin: 20px auto;
+}
+#sec-42{
+  width: 50%;
+  height: fit-content;
+}
+#sec-42{
+  position: relative;
+  padding: 50px 0;
+}
+#sec-421 img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  padding-left: 50px;
+}
+#sec-422 img{
+  width: 15rem;
+  height: 100%;
+  object-fit: cover;
+}
+#sec-422{
+  position: absolute;
+  bottom: -50px;
+  left: -70px;
+}

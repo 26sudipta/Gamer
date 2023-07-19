@@ -11,6 +11,9 @@
   #sec-3 > div{
     width: 90%;
   }
+  #sec-4 > div{
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -69,6 +72,17 @@
 
   #sec-3 > div{
     grid-template-columns: repeat(2,1fr);
+  }
+  #sec-4 > div{
+    flex-direction: column;
+  }
+  #sec-42{
+    margin: 0 auto;
+  }
+  #sec-422 img{
+    width: 12rem;
+    height: 100%;
+    object-fit: cover;
   }
 }
 
