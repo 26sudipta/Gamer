@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;700&family=Ubuntu&family=Work+Sans:wght@400;500;600;700;800;900&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -13,28 +14,35 @@ nav {
   margin: 0px auto;
   justify-content: space-between;
 }
+
 #nav-title {
   display: flex;
   align-items: center;
 }
+
 #nav-title img {
   max-width: 60px;
   object-fit: cover;
 }
+
 #nav-title span {
   color: rgb(255, 66, 165);
 }
+
 #nav-title h1 {
   margin-left: 10px;
 }
+
 #menu {
   display: flex;
   align-items: center;
 }
+
 #menu a {
   text-decoration: none;
   margin-left: 15px;
 }
+
 #menu span {
   display: flex;
   align-items: center;
@@ -43,12 +51,15 @@ nav {
   padding: 5px 10px;
   margin-left: 15px;
 }
+
 #menu span h4 {
   font-size: 18px;
 }
+
 .fa-brands {
   font-size: 25px;
 }
+
 .fa-solid {
   margin-right: 5px;
   font-size: 15px;
@@ -62,19 +73,23 @@ nav {
   background-repeat: no-repeat;
   background-size: contain;
 }
-#sec-1 > div {
+
+#sec-1>div {
   width: 80%;
   margin: 0 auto;
   display: flex;
 }
+
 #sec-11 {
   width: 50%;
   align-self: center;
 }
+
 #sec-11 h2 {
   font-size: 48px;
   font-weight: 600;
 }
+
 .gnd {
   font-size: 95px;
   font-weight: 800;
@@ -83,12 +98,14 @@ nav {
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
 }
+
 #sec-11 li {
   font-size: 15px;
   font-weight: 500;
   margin: 15px 0;
   list-style: none;
 }
+
 .btn {
   margin-top: 20px;
   padding: 21px 40px;
@@ -100,10 +117,12 @@ nav {
   border-radius: 48px;
   background: var(--linear, linear-gradient(90deg, #ff42a5 0%, #ff42a5 100%));
 }
+
 #sec-12 {
   width: 50%;
   height: 600px;
 }
+
 #sec-12 img {
   width: 100%;
   height: 100%;
@@ -115,40 +134,48 @@ nav {
   width: 100%;
   background-color: rgb(252, 246, 252);
 }
-#sec-2 > div {
+
+#sec-2>div {
   width: 80%;
   display: flex;
   margin: 0 auto;
   padding: 50px 0;
 }
+
 #sec-21 {
   width: 70%;
 }
+
 #sec-21 img {
   width: 100%;
   height: 100%;
   object-fit: contain;
 }
+
 #sec-22 {
   width: 40%;
   text-align: right;
   padding: 50px 0;
 }
+
 #sec-22 h1 {
   font-size: 45px;
   font-weight: 700;
   margin: 10px 0;
 }
+
 #sec-22 p {
   font-size: 16px;
   font-weight: 400;
   margin: 10px 0;
 }
+
 #sec-22 h3 {
   font-size: 18px;
   font-weight: 400;
   margin: 10px 0;
 }
+
 #sec-22 h2 {
   font-size: 24px;
   font-weight: 500;
@@ -162,64 +189,125 @@ nav {
   text-align: center;
   margin: 80px auto 20px;
 }
+
 #sec-3 h1 span {
   font-size: 48px;
   font-weight: 700;
 }
+
 #sec-3 h3 {
   font-size: 18px;
   font-weight: 100;
   text-align: center;
   margin: 10px auto 50px;
 }
-#sec-3 > div {
+
+#sec-3>div {
   margin: 0 auto;
   max-width: 80%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
+
 .card img {
   width: 100%;
 }
 
-
-#sec-4 > div{
+#sec-4>div {
   width: 80%;
   display: flex;
   margin: 100px auto;
 }
-#sec-41{
+
+#sec-41 {
   width: 50%;
   text-align: center;
   height: fit-content;
   align-self: center;
 }
-#sec-41 > h1{
+
+#sec-41>h1 {
   font-size: 44px;
   margin: 20px auto;
 }
-#sec-42{
+
+#sec-42 {
   width: 50%;
   height: fit-content;
 }
-#sec-42{
+
+#sec-42 {
   position: relative;
   padding: 50px 0;
 }
-#sec-421 img{
+
+#sec-421 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   padding-left: 50px;
 }
-#sec-422 img{
+
+#sec-422 img {
   width: 15rem;
   height: 100%;
   object-fit: cover;
 }
-#sec-422{
+
+#sec-422 {
   position: absolute;
   bottom: -50px;
   left: -70px;
+}
+
+#sec-5 {
+  background-color: rgb(255, 66, 165);
+  color: white;
+}
+
+#sec-5>div {
+  width: 100%;
+  display: flex;
+  margin: 0 auto;
+}
+#sec-51 {
+  width: 50%;
+  height: fit-content;
+  align-self: center;
+  margin-left: 5%;
+}
+#sec-51 h1{
+  font-size: 48px;
+  font-weight: 700;
+  margin: 20px 0;
+}
+#sec-51 p{
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 40px;
+  line-height: 30px;
+}
+#sec-511{
+  display: inline;
+  float: left;
+}
+#sec-51 button{
+  border-radius: 48px;
+background: #FFF;
+padding: 21px 40px;
+border: none;
+font-size: 24px;
+color: rgb(255, 66, 165);
+}
+#sec-512{
+  text-align: right;
+}
+#sec-52 {
+  width: 50%;
+}
+#sec-52 img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
 }
