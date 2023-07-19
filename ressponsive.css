@@ -5,6 +5,12 @@
   #sec-1 > div {
     width: 90%;
   }
+  #sec-2 > div{
+    width: 90%;
+  }
+  #sec-3 > div{
+    width: 90%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -49,6 +55,21 @@
     height: fit-content;
     order: 0;
   }
+
+  #sec-2 > div{
+    flex-direction: column;
+  }
+  #sec-21{
+    width: 100%;
+  }
+  #sec-22{
+    width: 100%;
+    text-align: center;
+  }
+
+  #sec-3 > div{
+    grid-template-columns: repeat(2,1fr);
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -75,5 +96,8 @@
     background-image: url(images/Group\ 14.png);
     background-size: cover;
     background-repeat: no-repeat;
+  }
+  #sec-3 > div{
+    grid-template-columns: 1fr;
   }
 }
