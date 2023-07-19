@@ -189,19 +189,16 @@ nav {
   text-align: center;
   margin: 80px auto 20px;
 }
-
 #sec-3 h1 span {
   font-size: 48px;
   font-weight: 700;
 }
-
 #sec-3 h3 {
   font-size: 18px;
   font-weight: 100;
   text-align: center;
   margin: 10px auto 50px;
 }
-
 #sec-3>div {
   margin: 0 auto;
   max-width: 80%;
@@ -209,63 +206,54 @@ nav {
   grid-template-columns: repeat(4, 1fr);
   gap: 10px;
 }
-
 .card img {
   width: 100%;
 }
-
 #sec-4>div {
   width: 80%;
   display: flex;
   margin: 100px auto;
 }
-
 #sec-41 {
   width: 50%;
   text-align: center;
   height: fit-content;
   align-self: center;
 }
-
 #sec-41>h1 {
   font-size: 44px;
   margin: 20px auto;
 }
-
 #sec-42 {
   width: 50%;
   height: fit-content;
 }
-
 #sec-42 {
   position: relative;
   padding: 50px 0;
 }
-
 #sec-421 img {
   width: 100%;
   height: 100%;
   object-fit: cover;
   padding-left: 50px;
 }
-
 #sec-422 img {
   width: 15rem;
   height: 100%;
   object-fit: cover;
 }
-
 #sec-422 {
   position: absolute;
   bottom: -50px;
   left: -70px;
 }
 
+
 #sec-5 {
   background-color: rgb(255, 66, 165);
   color: white;
 }
-
 #sec-5>div {
   width: 100%;
   display: flex;
@@ -310,4 +298,40 @@ color: rgb(255, 66, 165);
   width: 100%;
   height: 100%;
   object-fit: contain;
+}
+
+
+#sec-6{
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* border: 1px solid palevioletred; */
+  border-radius: 30px;
+  margin: 10px auto;
+}
+.box h3{
+  padding: 0 15px;
+}
+
+
+.ftitle{
+  width: fit-content;
+  margin: auto;
+  padding: 50px 0;
+}
+
+#fmenu{
+  width: fit-content;
+  margin: 0 auto;
+}
+#fmenu a{
+  text-decoration: none;
+  padding: 0 20px;
 }
