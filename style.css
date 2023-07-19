@@ -1,5 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;700&family=Ubuntu&family=Work+Sans:wght@400;500;600;700;800;900&display=swap');
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: 'Work Sans', sans-serif;
+}
+
+nav{
+    width: 80%;
+    height: 80px;
+    display: flex;
+    margin: 0px auto;
+    justify-content: space-between;
+}
+
+#nav-title{
+    display: flex;
+    align-items: center;
+}
+
+#nav-title span{
+    color: rgb(255, 66, 165);
+}
+
+#nav-title h1{
+    margin-left: 10px;
+}
+
+#menu{
+    display: flex;
+    align-items: center;
+}
+
+#menu a{
+    text-decoration: none;
+    margin:0  10px;
+}
+
+#menu span{
+    display: flex;
+    align-items: center;
+}
+
+.fa-brands{
+    font-size: 30px;
+    margin: 0 auto;
 }
