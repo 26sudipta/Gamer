@@ -89,6 +89,15 @@ nav {
   font-size: 48px;
   font-weight: 600;
 }
+.btn2{
+  border-radius: 48px;
+background: #4EC5F7;
+padding: 21px 40px;
+border: none;
+color: #ffffff;
+font-weight: bold;
+font-size: 18px;
+}
 
 .gnd {
   font-size: 95px;
@@ -312,7 +321,7 @@ color: rgb(255, 66, 165);
   display: flex;
   align-items: center;
   justify-content: center;
-  /* border: 1px solid palevioletred; */
+  border: 3px solid transparent;
   border-radius: 30px;
   margin: 10px auto;
 }
@@ -337,7 +346,7 @@ footer{
   background: rgb(11, 2, 35);
 }
 #fmenu{
-  width: 80%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   margin: 20px auto;
@@ -349,7 +358,7 @@ footer{
   font-weight: 700;
 }
 #fterms{
-  width: 70%;
+  width: 50%;
   display: flex;
   justify-content: space-between;
   margin: 20px auto;
@@ -377,3 +386,9 @@ footer h2{
   font-size: 14px;
   text-align: center;
 }
+
+.box:hover{
+  border: 3px solid #ff42a5;
+  color: #ff42a5;
+}
+
