@@ -27,6 +27,15 @@
     width: 90%;
     margin: 0 auto;
   }
+  #fmenu{
+    width: 90%;
+  }
+  #ficon{
+    width: 80%;
+  }
+  #fterms{
+    width: 80%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -97,6 +106,27 @@
     height: 100%;
     object-fit: cover;
   }
+
+  #fmenu{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+  }
+  #fmenu a{
+    text-align: center;
+    padding: 10px 0;
+  }
+  #ficon{
+    display: grid;
+    grid-template-columns: repeat(3 ,1fr);
+  }
+  #ficon a{
+    text-align: center;
+    padding: 10px 0;
+  }
+  /* #fterms{
+    display: grid;
+    grid-template-columns: repeat(4 ,1fr);
+  } */
 }
 
 @media screen and (max-width: 576px) {

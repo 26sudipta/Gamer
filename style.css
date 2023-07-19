@@ -337,19 +337,19 @@ footer{
   background: rgb(11, 2, 35);
 }
 #fmenu{
-  width: 50%;
+  width: 80%;
   display: flex;
   justify-content: space-between;
   margin: 20px auto;
 }
 #fmenu a{
   text-decoration: none;
-  font-size: 24px;
+  font-size: 18px;
   color: #ffffff;
   font-weight: 700;
 }
 #fterms{
-  width: 40%;
+  width: 70%;
   display: flex;
   justify-content: space-between;
   margin: 20px auto;
@@ -361,7 +361,7 @@ footer{
 }
 
 #ficon{
-  width: 40%;
+  width: 50%;
   margin: 50px auto;
   display: flex;
   justify-content: space-between;
@@ -374,5 +374,6 @@ footer h2{
   margin: auto;
   padding: 20px 0 50px;
   font-weight: 100;
-  font-size: 18px;
+  font-size: 14px;
+  text-align: center;
 }
