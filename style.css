@@ -349,7 +349,7 @@ margin-bottom: 1.5em;
 
 
 #sec-6{
-  width: 80%;
+  width: 90%;
   margin: 100px auto;
   display: flex;
   flex-wrap: wrap;
@@ -357,14 +357,16 @@ margin-bottom: 1.5em;
 }
 .box{
   display: flex;
+  width: 20%;
   align-items: center;
-  justify-content: center;
   border: 3px solid transparent;
   border-radius: 30px;
   margin: 10px auto;
 }
 .box h3{
-  padding: 0 15px;
+  padding: 0 10px;
+  font-size: 1em;
+  font-weight: normal;
 }
 
 
