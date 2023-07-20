@@ -319,7 +319,7 @@ font-size: 18px;
 #sec-51 p{
   font-size: 18px;
   font-weight: 600;
-  margin-bottom: 40px;
+  margin-bottom: 20px;
   line-height: 30px;
 }
 #sec-511{
@@ -329,10 +329,11 @@ font-size: 18px;
 #sec-51 button{
   border-radius: 48px;
 background: #FFF;
-padding: 21px 40px;
+padding: 15px 20px;
 border: none;
 font-size: 24px;
 color: rgb(255, 66, 165);
+margin-bottom: 1.5em;
 }
 #sec-512{
   text-align: right;
@@ -390,7 +391,6 @@ footer{
 }
 #fmenu a{
   text-decoration: none;
-  font-size: 18px;
   color: #ffffff;
   font-weight: 300;
 }
@@ -404,7 +404,7 @@ footer{
   text-decoration: none;
   color: #ffffff;
   font-weight: 100;
-  font-size: 14px;
+  font-size: .8em;
 }
 
 #ficon{
@@ -414,14 +414,14 @@ footer{
   justify-content: space-between;
 }
 #ficon .fa-brands{
-  font-size: 50px;
+  font-size: 2.5rem;
 }
 footer h2{
   width: fit-content;
   margin: auto;
   padding: 20px 0 50px;
   font-weight: 100;
-  font-size: 14px;
+  font-size: .8em;
   text-align: center;
 }
 
