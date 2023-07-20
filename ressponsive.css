@@ -36,6 +36,9 @@
   #fterms{
     width: 80%;
   }
+  #sec-6{
+    width: 96%;
+  }
 }
 
 @media screen and (max-width: 768px) {
@@ -128,6 +131,9 @@
     width: 96%;
     grid-template-columns: repeat(3,1fr);
   }
+  .box{
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 576px) {
@@ -169,7 +175,7 @@
     font-weight: 100;
   }
   .box img{
-    width: 20px;
+    width: 30px;
   }
   #sec-41>h1{
     font-size: 18px;
